@@ -1,0 +1,25 @@
+{
+  "name": "easy-script-loader",
+  "version": "0.0.0",
+  "description": "Easily Load a Script. Returns a Promise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/easy-script-loader.git"
+  },
+  "keywords": [
+    "easy",
+    "promise",
+    "script",
+    "loader"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/easy-script-loader/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/easy-script-loader#readme"
+}
