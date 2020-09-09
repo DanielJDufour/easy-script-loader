@@ -33,3 +33,20 @@ or
 </body>
 ```
 
+# debugging
+You can pass in an options object with `debug` set to true for additional logging.
+```javascript
+<head>
+    <script src="https://unpkg.com/easy-script-loader"></script>
+</head>
+<body>
+    <script>
+        loadScript("https://unpkg.com/georaster", { debug: true });
+    </script>
+</body>
+```
+will output
+```
+[easy-script-loader] starting to load  https://unpkg.com/georaster
+[easy-script-loader] successfully loaded  https://unpkg.com/georaster
+```

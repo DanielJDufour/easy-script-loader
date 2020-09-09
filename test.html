@@ -2,11 +2,16 @@
 <html>
     <head>
         <script src="./index.js"></script>
+        <script>
+            loadScript("https://unpkg.com/get-epsg-code", { debug: true }).then(function () {
+                console.log("loaded get-epsg-code!", { getEPSGCode });
+            });
+        </script>
     </head>
     <body>
         <script>
-            loadScript("https://unpkg.com/georaster").then(function () {
-                console.log("loaded georaster!");
+            loadScript("https://unpkg.com/georaster", { debug: true }).then(function () {
+                console.log("loaded georaster!", { parseGeoraster });
             });
         </script>
     </body>
