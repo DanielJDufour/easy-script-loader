@@ -35,7 +35,7 @@ or
 
 # debugging
 You can pass in an options object with `debug` set to true for additional logging.
-```javascript
+```html
 <head>
     <script src="https://unpkg.com/easy-script-loader"></script>
 </head>
