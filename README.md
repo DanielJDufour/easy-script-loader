@@ -1,5 +1,5 @@
 # easy-script-loader
-Easily Load a Script.  Returns a Promise.
+> Easily Load a Script.  Returns a Promise.
 
 # load via script tag
 ```bash
